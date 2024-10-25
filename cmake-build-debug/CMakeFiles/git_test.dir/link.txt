@@ -1,0 +1,3 @@
+"D:\JetBrains\CLion 2023.3.5\Clion\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\git_test.dir/objects.a
+D:\vscord111\mingw64\bin\ar.exe qc CMakeFiles\git_test.dir/objects.a @CMakeFiles\git_test.dir\objects1.rsp
+D:\vscord111\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\git_test.dir/objects.a -Wl,--no-whole-archive -o git_test.exe -Wl,--out-implib,libgit_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\git_test.dir\linkLibs.rsp
